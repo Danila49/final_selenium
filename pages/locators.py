@@ -13,4 +13,5 @@ class ProductPageLocators():
     PRICE_BOOK=(By.CSS_SELECTOR,".product_main  h1+p")
     NAME_BOOK_AFTER_ADDED=(By.CSS_SELECTOR, ".alertinner strong")
     PRICE_BOOK_AFTER_ADDED=(By.CSS_SELECTOR, ".alertinner p strong")
+    SUCCESS_MESSAGE=(By.CSS_SELECTOR, "#messages>div:nth-child(1)")
     
