@@ -14,4 +14,8 @@ class ProductPageLocators():
     NAME_BOOK_AFTER_ADDED=(By.CSS_SELECTOR, ".alertinner strong")
     PRICE_BOOK_AFTER_ADDED=(By.CSS_SELECTOR, ".alertinner p strong")
     SUCCESS_MESSAGE=(By.CSS_SELECTOR, "#messages>div:nth-child(1)")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     
